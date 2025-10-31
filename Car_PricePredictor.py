@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 st.title("Welcome to Car Price Predictor")
 st.header("Please fill in your details")
 #scaler = StandardScaler()
@@ -41,3 +41,4 @@ if predict_clicked==True:
     st.write("The price for the selected vehicle is: ",result)
 elif Reset_options ==True:
     st.session_state.clear
+
